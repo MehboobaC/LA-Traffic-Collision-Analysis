@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <link rel="shortcut icon" href="/static/images/icon.jpg" type="image/x-icon"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>TRAFFIC COLLISION STATISTICS</title>
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #42625D;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/templates/index.html"><b>TRAFFIC COLLISION STATISTICS</b></a>
+                
+    <ul class="nav justify-content-end" style="background-color: #42625D;">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ABOUT</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/templates/abstract.html">ABSTRACT</a></li>
+          <li><a class="dropdown-item" href="/templates/dataset.html">DATASET</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/templates/visualisation.html">VISUALISATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/templates/prediction.html">PREDICTION APP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/templates/TSA.html">TIME SERIES ANALYSIS</a>
+      </li>     
+    </ul>
+    </div>
+      </nav>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-9"> <br><h2>VISUALISATION RELATED TO THE FEATURE VICTIM DESCENT</h2></div>
+  </div>
+</div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Victim Descent/descent count.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Frequency Plot</h5>
+              <p class="card-text"><ul>
+                <li>1</li>
+                <li>2</li> 
+                <li>3</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Victim Descent/descent vs weekly.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victim Descent Vs Weekly</h5>
+              <p class="card-text"><ul>
+                <li>Hispanic/Latin/Mexican – Friday has the highest point in graph.</li>
+                <li>White took 2nd place.</li> 
+                <li>Most victims are in weekends.</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Victim Descent/descent vs monthly.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victim Descnet Vs Monthly</h5>
+              <p class="card-text"><ul>
+                <li>Hispanic/Latin/Mexican records most victims.</li>
+                <li>Most groups have highest victims in October and august.</li> 
+                <li>March also shows high number of victims.</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Victim Descent/descent vs monthly.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victim Descent Vs Premises</h5>
+              <p class="card-text"><ul>
+                <li>Street has highest number of victims.</li>
+                <li>Parking lot comes in 2nd.</li> 
+              </ul></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Victim Descent/descent vs age.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Victim Descent Vs Age</h5>
+              <p class="card-text"><ul>
+                <li>Most victims are in the age group 20-30.</li>
+                <li>Victims having age 99 and others are high, due to data misinformation.</li> 
+                <li>Unknown having age group of 18-19 also have high count.</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Victim Descent/descent vs sex.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Victim Descent Vs Sex</h5>
+                  <p class="card-text"><ul>
+                    <li>Males takes majority in all descents.</li>
+                    <li>In case of black, both female and male have almost equal victims.</li> 
+                    <li>Majority of unknown descent is missing values.</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Area/area vs victim descent.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Victim Descent Vs Area</h5>
+                  <p class="card-text"><ul>
+                    <li>77th Street gives the highest count for black group.</li>
+                    <li>Hispanic/Latin/Mexican is more in Newton, Olympic, Mission, Hollenbeck  </li> 
+                    <li>White group is more in West LA and Pacific.</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Victim Descent/descent vs hourly.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Victim Descent Vs Hourly</h5>
+                  <p class="card-text"><ul>
+                    <li>1</li>
+                    <li>2</li> 
+                    <li>3</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Victim Descent/descent vs yearly.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Victim Descent Vs Yearly</h5>
+                  <p class="card-text"><ul>
+                    <li>1</li>
+                    <li>2</li> 
+                    <li>3</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="visualisation.html"><button type="button" class="btn btn-success">BACK</button></a>   
+</body>
+</html>

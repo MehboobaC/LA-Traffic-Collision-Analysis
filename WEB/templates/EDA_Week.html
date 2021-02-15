@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <link rel="shortcut icon" href="/static/images/icon.jpg" type="image/x-icon"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>TRAFFIC COLLISION STATISTICS</title>
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #42625D;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/templates/index.html"><b>TRAFFIC COLLISION STATISTICS</b></a>
+                
+    <ul class="nav justify-content-end" style="background-color: #42625D;">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ABOUT</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/templates/abstract.html">ABSTRACT</a></li>
+          <li><a class="dropdown-item" href="/templates/dataset.html">DATASET</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/templates/visualisation.html">VISUALISATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/templates/prediction.html">PREDICTION APP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/templates/TSA.html">TIME SERIES ANALYSIS</a>
+      </li>     
+    </ul>
+    </div>
+      </nav>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-9"> <br><h2>VISUALISATION RELATED TO THE FEATURE WEEKDAY</h2></div>
+  </div>
+</div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Week/week count.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Frequency Plot</h5>
+              <p class="card-text"><ul>
+                <li>1</li>
+                <li>2</li> 
+                <li>3</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Age/age vs weekday.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Week Vs Age</h5>
+              <p class="card-text"><ul>
+                <li>The highest point in the graph shows that victim age is 30 and Friday.</li>
+                <li>The lowest point is age 15 and Sunday.</li> 
+                <li>Most victims are in Friday and Saturday, Sunday gives the lowest.</li>
+                <li>There is an unusual spike in age 99.</li>
+                <li>People should drive more careful in Friday to avoid collisions.</li>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Area/area vs weekday.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Week Vs Area</h5>
+              <p class="card-text"><ul>
+                <li>77th Street have high collisions occurring in Saturday, Friday, Sunday.</li>
+                <li>Wilshire and Southwest also large number of victims.</li> 
+                <li>Friday tops in most areas.</li>
+                <li>Sunday the least.</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/static/images/Victim Descent/descent vs weekly.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Week Vs Victim Descent</h5>
+              <p class="card-text"><ul>
+                <li>Hispanic/Latin/Mexican – Friday has the highest point in graph.</li>
+                <li>White took 2nd place.</li> 
+                <li>Most victims are in weekends.</li>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Year/year vs weekly.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Week Vs Year</h5>
+                  <p class="card-text"><ul>
+                    <li>2019 is in top of the list in past years.</li>
+                    <li>However, 2017 overtook 2018 claiming 2nd spot.</li> 
+                    <li>2020 is very low due to Covid and lockdown.</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Week/week vs monthly.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Week Vs Monthly</h5>
+                  <p class="card-text"><ul>
+                    <li>1</li>
+                    <li>2</li> 
+                    <li>3</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Week/week vs hour.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Week Vs Hourly</h5>
+                  <p class="card-text"><ul>
+                    <li>1</li>
+                    <li>2</li> 
+                    <li>3</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/static/images/Week/week vs sex.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Weekday Vs Victim Sex</h5>
+                  <p class="card-text"><ul>
+                    <li>1</li>
+                    <li>2</li> 
+                    <li>3</li>
+                  </ul></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="visualisation.html"><button type="button" class="btn btn-success">BACK</button></a>   
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <link rel="shortcut icon" href="/static/images/icon.jpg" type="image/x-icon"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>TRAFFIC COLLISION STATISTICS</title>
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #42625D;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><b>TRAFFIC COLLISION STATISTICS</b></a>
+                
+    <ul class="nav justify-content-end" style="background-color: #42625D;">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ABOUT</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="abstract.html">ABSTRACT</a></li>
+          <li><a class="dropdown-item" href="dataset.html">DATASET</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="visualisation.html">VISUALISATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="prediction.html">PREDICTION APP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="TSA.html">TIME SERIES ANALYSIS</a>
+      </li>     
+    </ul>
+    </div>
+      </nav>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-9"><h1>Traffic Collision Data from 2010 to Present</h1><br></div>
+          <div class="col-8" width="75%"><p>This dataset reflects traffic collision incidents in the City of Los Angeles dating back to 2010. This data is transcribed from original traffic reports that are typed on paper and therefore there may be some inaccuracies within the data. Some location fields with missing data are noted as (0°, 0°). Address fields are only provided to the nearest hundred block in order to maintain privacy. This data is as accurate as the data in the database.
+            <br>
+            <br><p>The data begins in January 2010 and is updated weekly. In my particular case, I use data from January 2010 - 9 January 2021, which ends up being ~500K rows. Each row corresponds to a collision. This data is transcribed from original paper traffic reports, so it’s very likely that there are errors.</p>
+            <br>
+            <p>We used dataset till Jan 9,2021.
+              <br>
+            </div>
+          <div class="col-4">  
+            <div class="col-sm-14">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text"></p>For updated dataset please go through the link mentioned below:-
+                <br><br>
+                <a class="button" href="https://data.lacity.org/api/views/d5tf-ez2w/rows.csv?accessType=DOWNLOAD&bom=true&format=true">dataset link..</a></p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      <div>
+        
+        <a href="description.html"><button type="button" class="btn btn-success">Dataset Description</button></a>
+      </div>
+     
+</body>
+</html>
+
+

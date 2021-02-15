@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+  <link rel="shortcut icon" href="/static/images/icon.jpg" type="image/x-icon"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>TRAFFIC COLLISION STATISTICS</title>
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #42625D;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><b>TRAFFIC COLLISION STATISTICS</b></a>
+                
+    <ul class="nav justify-content-end" style="background-color: #42625D;">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ABOUT</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="abstract.html">ABSTRACT</a></li>
+          <li><a class="dropdown-item" href="dataset.html">DATASET</a></li>
+          </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="visualisation.html">VISUALISATION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="prediction.html">PREDICTION APP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="TSA.html">TIME SERIES ANALYSIS</a>
+      </li>     
+    </ul>
+    </div>
+      </nav>
+<!-- Content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-8"><h1>Exploratory Data Analysis</h1><br></div>
+          <div class="col-8" width="75%"><p>In statistics, <b> Visualisation/Exploratory Data Analysis </b>is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task.
+            <br> EDA is different from initial data analysis (IDA),which focuses more narrowly on checking assumptions required for model fitting and hypothesis testing, and handling missing values and making transformations of variables as needed. EDA encompasses IDA.
+            <br><br>The objectives of EDA are to:
+
+            <ul>
+              <li>Suggest hypotheses about the causes of observed phenomena</li>
+              <li>Assess assumptions on which statistical inference will be based</li> 
+              <li>Support the selection of appropriate statistical tools and techniques</li>
+               <li> Provide a basis for further data collection through surveys or experiments</li>
+            </ul>
+
+            
+            
+            
+           
+          </p>
+          </div>
+          <div class="col-4">  
+            <div class="col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text"></p>Explore visualisation related to this dataset by choosing a particular option:-
+                <br>
+                <br>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Choose a Feature
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="EDA_age.html">Victim Age</a></li>
+                    <li><a class="dropdown-item" href="EDA_area.html">Area</a></li>
+                    <li><a class="dropdown-item" href="EDA_descent.html">Victim Descent</a></li>
+                    <li><a class="dropdown-item" href="EDA_Year.html">Year</a></li>
+                    <li><a class="dropdown-item" href="EDA_Month.html">Month</a></li>
+                    <li><a class="dropdown-item" href="EDA_Week.html">Week</a></li>
+                    <li><a class="dropdown-item" href="EDA_Hour.html">Hour</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      
+</body>
+</html>
